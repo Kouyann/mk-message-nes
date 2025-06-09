@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-const API_ENDPOINT1 = '【API Gateway Lambda1のエンドポイント】';
-const API_ENDPOINT2 = '【API Gateway Lambda2のエンドポイント】';
+const API_ENDPOINT1 = 'https://2ibxsj22cb.execute-api.ap-northeast-1.amazonaws.com/mk-message-nes1';
+const API_ENDPOINT2 = 'https://2ibxsj22cb.execute-api.ap-northeast-1.amazonaws.com/mk-message-nes2';
 
 function App() {
   const [result, setResult] = useState('結果がここに表示されます');
@@ -24,7 +24,6 @@ function App() {
   return (
     <>
       <header className="header">
-        <div>a</div>
         <div className="header-logo">MicroService</div>
         <div className="user-info">
           <div className="user-icon">S</div>
